@@ -1,0 +1,81 @@
+.feature-section{
+    background-color: $white-text;
+    padding: 4rem 0 4rem 8rem;
+    overflow: hidden;
+    @include mobile{
+        padding: 4rem 1rem;
+    }
+     @include tablet{
+                    padding: 3rem;
+                }
+    h2{
+        text-align: center;
+        font-size: 2rem;
+        color: $very-dark-grayish-blueBody-copy;
+        @include mobile{
+            margin-bottom: 2rem;
+        }
+    }
+    .feature-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include mobile{
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+        @include tablet{
+            flex-direction: column-reverse;
+        }
+        .feature-item{
+            margin-bottom: 15rem;
+            @include xlarge{
+                width: 63%;
+                margin-right: 3rem;
+            }
+            @include tablet{
+                margin-top: 3rem;
+            }
+            h3{
+                font-size: 1.5rem;
+                margin-bottom: 2rem;
+                  color: $very-dark-grayish-blueBody-copy;
+                  @include mobile{
+                      font-size: 2.125rem;
+                  }
+            }
+            p{
+                font-size: 1.1rem;
+                color: $very-dark-grayish-blueBody-copy;
+                line-height: 1.6;
+                @include mobile{
+                    font-size: 1.125rem;
+                    padding: 0 1.5rem;
+                }
+               
+            }
+            .feature-1{
+                margin-bottom: 4rem;
+            }
+        }
+        .feature-image{
+            img{
+                @include xlarge{
+                    
+            width: 144%;
+            position: relative;
+            top: -57px;
+
+                }
+                @include mobile{
+                    width: 100%;
+                }
+                @include tablet{
+                    margin-top: 3rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}

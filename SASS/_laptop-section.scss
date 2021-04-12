@@ -1,0 +1,61 @@
+.laptop-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+
+    @include mobile{
+        flex-direction: column;
+    }
+    @include tablet{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-image{
+        img{
+          @include xlarge{
+              margin-left: -17rem;
+          }
+          @include mobile{
+              width: 27rem;
+          }
+        @include tablet{
+            width: 40rem;
+            margin-left: 5rem;
+        }
+        }
+      
+    }
+    .section-content{
+        color: $very-dark-grayish-blueBody-copy;
+        @include mobile{
+            text-align: center;
+        }
+        @include xlarge{
+            padding-right: 5rem;
+        }
+        @include tablet{
+            padding: 4rem 2rem;
+        }
+        h3{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            @include xlarge{
+                font-size: 1.3rem;
+            }
+        }
+        p{
+            line-height: 1.4;
+            font-size: 1.2rem;
+            @include xlarge{
+                font-size: 1.1rem;
+            }
+            @include mobile{
+                padding: 0 1rem;
+            }
+        }
+        .content1{
+                margin-bottom: 4rem;
+            }
+    }
+}
