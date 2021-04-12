@@ -454,14 +454,14 @@ li {
 }
 
 .feature-section .feature-content .feature-item p {
-  font-size: 1.1rem;
+  font-size: 1.0625rem;
   color: #4b5862;
   line-height: 1.6;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .feature-section .feature-content .feature-item p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     padding: 0 1.5rem;
   }
 }
@@ -584,12 +584,13 @@ li {
 @media (min-width: 1025px) and (max-width: 1440px) {
   .phones-section .section-content p {
     width: 81%;
+    font-size: 1.1875rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .phones-section .section-content p {
-    font-size: 15px;
+    font-size: 1.125rem;
   }
 }
 
@@ -667,7 +668,7 @@ li {
 
 .laptop-section .section-content p {
   line-height: 1.4;
-  font-size: 1.2rem;
+  font-size: 1.1875rem;
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {

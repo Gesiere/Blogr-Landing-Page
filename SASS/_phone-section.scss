@@ -67,10 +67,11 @@
         p{
             @include xlarge{
                 width: 81%;
+                font-size: 1.1875rem;
             
             }
             @include mobile{
-                font-size: 15px;
+                font-size: 1.125rem;
 
             }
             line-height: 1.6;
