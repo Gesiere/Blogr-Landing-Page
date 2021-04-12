@@ -10,10 +10,7 @@ html, body {
   width: 100vw;
   height: 100%;
   font-family: 'Overpass', sans-serif;
-}
-
-html.noscroll, body.noscroll {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -302,7 +299,7 @@ li {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .header .header-content h2 {
-    font-size: 2.1875rem;
+    font-size: 2rem;
   }
 }
 
@@ -404,6 +401,7 @@ li {
 @media (min-width: 320px) and (max-width: 767px) {
   .feature-section h2 {
     margin-bottom: 2rem;
+    font-size: 1.4375rem;
   }
 }
 
@@ -708,7 +706,7 @@ li {
 .footer h4 {
   margin-bottom: 2rem;
   color: white;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
